@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="bg-[#bedbef] text-black py-8">
       <div className="container mx-auto flex flex-col md:flex-row justify-between md:items-center">
         {/* First Column */}
-        <div className="grid gap-5 items-center w-full md:w-1/5 mb-5 md:mb-0">
+        <div className="grid gap-5 items-center md:w-1/5 mb-5 md:mb-0">
           <Image src={gariBareeLogo} width={200} height={200} />
           <div className="">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta,
