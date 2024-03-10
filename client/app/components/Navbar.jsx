@@ -92,7 +92,7 @@ const Navbar = () => {
                     )}
                     {item.dropdown.length > 0 &&
                       activeDropdown === item.label && (
-                        <div className="absolute left-0 top-full mt-1 bg-slate-200 border border-gray-200  rounded shadow-lg ">
+                        <div className="absolute left-0 top-full mt-0 bg-slate-200 border border-gray-200  rounded shadow-lg ">
                           {item.dropdown.map((dropdownItem) => (
                             <Link
                               className="block py-2 px-16 hover:bg-gray-300"

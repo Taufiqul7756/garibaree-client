@@ -1,7 +1,6 @@
 import React from "react";
 import logo from "../images/logo.png";
 import toyotaCar from "../images/Toyota-Glanza.jpg";
-import Image from "next/image";
 
 const CarCards = () => {
   return (

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#bedbef] text-black py-8">
+    <footer className="bg-[#bedbef] text-black px-16 py-8">
       <div className="container mx-auto flex flex-col md:flex-row justify-between md:items-center">
         {/* First Column */}
         <div className="grid gap-5 items-center md:w-1/5 mb-5 md:mb-0">
