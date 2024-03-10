@@ -4,6 +4,9 @@ import Search from "../components/Search";
 import AllBrands from "./AllBrands";
 import Image from "next/image";
 import hero from "../images/hero.jpg";
+import logo from "../images/logo.png";
+import toyotaCar from "../images/Toyota-Glanza.jpg";
+import CarCards from "./CarCards";
 
 const GariListPage = () => {
   return (
@@ -22,6 +25,8 @@ const GariListPage = () => {
           <Search />
           <AllBrands />
         </div>
+        {/* car card sections */}
+        <CarCards />
       </div>
     </div>
   );
