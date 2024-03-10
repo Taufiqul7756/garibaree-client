@@ -3,7 +3,7 @@ import GariListPage from "./GariListPage";
 
 const page = () => {
   return (
-    <div>
+    <div className="bg-[#e9e6e6] mt-44">
       <GariListPage />
     </div>
   );
