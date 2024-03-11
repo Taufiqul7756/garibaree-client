@@ -1,5 +1,5 @@
 import React from "react";
-import BrandImage from "../images/toyota.png";
+import BrandImage from "../images/toyotaa.png";
 import { FaAngleDown } from "react-icons/fa6";
 
 const AllBrands = () => {
